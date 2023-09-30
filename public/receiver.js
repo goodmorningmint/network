@@ -1,5 +1,6 @@
+//client
 (function(){
-    const socket = io("http://localhost:3000");
+    const socket = io("http://localhost:3000"); //เปลี่ยน http://localhost เป็น IP server eg. 192.168.2.1:3000
     let sender_uid;
 
     function generateID(){

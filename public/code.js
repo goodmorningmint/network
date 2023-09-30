@@ -1,3 +1,4 @@
+//server
 (function(){
     let receiverID;
     let roomID;
